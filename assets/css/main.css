@@ -13,9 +13,9 @@
 /* Fonts */
 @font-face {
   font-family: "IRANYekanWebFn";
-  src: url("IRANYekanWebFn-Black.woff2") format("woff2"),
-    url("IRANYekanWebFn-Black.woff") format("woff"),
-    url("IRANYekanWebFn-Black.ttf") format("truetype");
+  src: url("../font/IRANYekanWebFn-Black.woff2") format("woff2"),
+    url("../font/IRANYekanWebFn-Black.woff") format("woff"),
+    url("../font/IRANYekanWebFn-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -23,9 +23,9 @@
 
 @font-face {
   font-family: "IRANYekanWebFn";
-  src: url("IRANYekanWebFn-Bold.woff2") format("woff2"),
-    url("IRANYekanWebFn-Bold.woff") format("woff"),
-    url("IRANYekanWebFn-Bold.ttf") format("truetype");
+  src: url("../font/IRANYekanWebFn-Bold.woff2") format("woff2"),
+    url("../font/IRANYekanWebFn-Bold.woff") format("woff"),
+    url("../font/IRANYekanWebFn-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -33,9 +33,9 @@
 
 @font-face {
   font-family: "IRANYekanWebFn ExtraBlack";
-  src: url("IRANYekanWebFn-ExtraBlack.woff2") format("woff2"),
-    url("IRANYekanWebFn-ExtraBlack.woff") format("woff"),
-    url("IRANYekanWebFn-ExtraBlack.ttf") format("truetype");
+  src: url("../font/IRANYekanWebFn-ExtraBlack.woff2") format("woff2"),
+    url("../font/IRANYekanWebFn-ExtraBlack.woff") format("woff"),
+    url("../font/IRANYekanWebFn-ExtraBlack.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -43,9 +43,9 @@
 
 @font-face {
   font-family: "IRANYekanWebFn";
-  src: url("IRANYekanWebFn-ExtraBold.woff2") format("woff2"),
-    url("IRANYekanWebFn-ExtraBold.woff") format("woff"),
-    url("IRANYekanWebFn-ExtraBold.ttf") format("truetype");
+  src: url("../font/IRANYekanWebFn-ExtraBold.woff2") format("woff2"),
+    url("../font/IRANYekanWebFn-ExtraBold.woff") format("woff"),
+    url("../font/IRANYekanWebFn-ExtraBold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -53,9 +53,9 @@
 
 @font-face {
   font-family: "IRANYekanWebFn";
-  src: url("IRANYekanWebFn-Light.woff2") format("woff2"),
-    url("IRANYekanWebFn-Light.woff") format("woff"),
-    url("IRANYekanWebFn-Light.ttf") format("truetype");
+  src: url("../font/IRANYekanWebFn-Light.woff2") format("woff2"),
+    url("../font/IRANYekanWebFn-Light.woff") format("woff"),
+    url("../font/IRANYekanWebFn-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -63,9 +63,9 @@
 
 @font-face {
   font-family: "IRANYekanWebFn";
-  src: url("IRANYekanWebFn-Medium.woff2") format("woff2"),
-    url("IRANYekanWebFn-Medium.woff") format("woff"),
-    url("IRANYekanWebFn-Medium.ttf") format("truetype");
+  src: url("../font/IRANYekanWebFn-Medium.woff2") format("woff2"),
+    url("../font/IRANYekanWebFn-Medium.woff") format("woff"),
+    url("../font/IRANYekanWebFn-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -73,9 +73,9 @@
 
 @font-face {
   font-family: "IRANYekanWebFn";
-  src: url("IRANYekanWebFn.woff2") format("woff2"),
-    url("IRANYekanWebFn.woff") format("woff"),
-    url("IRANYekanWebFn.ttf") format("truetype");
+  src: url("../font/IRANYekanWebFn.woff2") format("woff2"),
+    url("../font/IRANYekanWebFn.woff") format("woff"),
+    url("../font/IRANYekanWebFn.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -83,9 +83,9 @@
 
 @font-face {
   font-family: "IRANYekanWebFn";
-  src: url("IRANYekanWebFn-Thin.woff2") format("woff2"),
-    url("IRANYekanWebFn-Thin.woff") format("woff"),
-    url("IRANYekanWebFn-Thin.ttf") format("truetype");
+  src: url("../font/IRANYekanWebFn-Thin.woff2") format("woff2"),
+    url("../font/IRANYekanWebFn-Thin.woff") format("woff"),
+    url("../font/IRANYekanWebFn-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -96,6 +96,7 @@
   --heading-font: "IRANYekanWebFn";
   --nav-font: "IRANYekanWebFn";
 }
+
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
@@ -223,6 +224,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
+  display: none !important;
   color: var(--default-color);
   background-color: var(--background-color);
   position: fixed;
@@ -289,7 +291,7 @@ h6 {
 @media (min-width: 1200px) {
   .header ~ main,
   .header ~ #footer {
-    margin-right: 300px;
+    /* margin-right: 300px; */
   }
 }
 
@@ -586,7 +588,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: clip;
 }
 
